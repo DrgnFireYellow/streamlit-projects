@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streamlit-projects"
+version = "0.1.0"
+description = ""
+authors = ["DrgnFireYellow <ethanmilbert@gmail.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_projects"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^1.24.1"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
